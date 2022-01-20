@@ -12,15 +12,15 @@ spec:
     displayName: Glovo
     email: info@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [platform]
+  #children: [platform]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: clusters
   description: A collection of all glovo clusters
-spec:
-  targets:
-    - ./platform-cluster.yaml
-    - ./experimentation-team-group.yaml
-    - ./btd-team-group.yaml
+# spec:
+#  targets:
+#    - ./platform-cluster.yaml
+#    - ./experimentation-team-group.yaml
+#    - ./btd-team-group.yaml
