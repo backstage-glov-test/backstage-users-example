@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform
+  description: The platform cluster
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: glovo
+  children: [experimentation-team]
